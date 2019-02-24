@@ -7,6 +7,8 @@
 //
 
 #include <stdio.h>
+#include <math.h>
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -28,6 +30,6 @@ int main(int argc, const char * argv[]) {
         }
         
     }
-    printf("The location of %d is %d \n",digit,location);
+   
     return 0;
 }
