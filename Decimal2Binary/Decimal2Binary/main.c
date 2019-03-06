@@ -11,14 +11,14 @@
 void convert2Binary(int number);
 
 int main(int argc, const char * argv[]) {
-    convert2Binary(8);
+    convert2Binary(7);
     printf("\n");
     return 0;
 }
 void convert2Binary(int number){
     int remainder;
     int i =1;
-    int last;
+    int last=0;
     
     while (number != 0) {
         remainder = number%2;
