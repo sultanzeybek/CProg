@@ -19,17 +19,17 @@ void findWord(char array1 [], int size1, char array2 [], int size2){
             
         }
         if (matchNumber == size2) {
-            printf("%d\n", i);
+            printf("%d start index %d end index\n", i, i+matchNumber);
         }
     }
 }
 
 int main(int argc, const char * argv[]) {
    
-    char array1 [] = "Fatih Sultan";
-    int size1 = 12;
-    char array2 [] = "Sultan";
-    int size2 = 6;
+    char array1 [] = "Fatih Sultan Mehmet";
+    int size1 = sizeof(array1)-1;
+    char array2 [] = "tan";
+    int size2 = sizeof(array2)-1;
     
     findWord(array1, size1, array2, size2);
     
