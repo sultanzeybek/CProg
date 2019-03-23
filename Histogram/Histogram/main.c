@@ -16,7 +16,7 @@ void pattern(double r){
             
             double distance = sqrt(pow(i-r, 2) +pow(j-r, 2));
             if(distance==r) {
-                printf("*");
+                printf("***");
             }
             else printf("  ");
         }
