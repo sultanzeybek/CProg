@@ -66,7 +66,7 @@ int main(int argc, const char * argv[]) {
     
     Point point1 = {1,2};
     Point point2 = {0,3};
-    
+    printf(sizeof(point1));
     Point pList [10];
     for (int i =0; i<10; i++) {
         pList[i].x = rand()%100;
@@ -74,7 +74,6 @@ int main(int argc, const char * argv[]) {
         printf("%d. point (%d, %d)\n",i,pList[i].x,pList[i].y);
 
     }
-    
     Point nearestPoint = CalculateNearestCoordinate(pList, point1, 10);
     printf("nearest point (%d, %d)\n",nearestPoint.x,nearestPoint.y);
     
